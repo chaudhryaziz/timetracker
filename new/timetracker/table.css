@@ -1,0 +1,22 @@
+.keybox {
+  border: 10px solid green ;
+  width:300px;
+  float: right;
+}
+
+tr td div input {
+    width:40px;
+	border-style: none;
+	color: rgba(0,0,0,0); 
+}
+
+tr td div input:disabled{
+	/*color: rgba(0,0,0,0);*/
+}
+
+tr td div input:focus{
+	color:black;
+	font-weight:bold;
+}
+
+
